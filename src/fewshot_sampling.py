@@ -253,7 +253,7 @@ def diverse_sim_alg(query, args, sim_lm_model=None, storage_data=None, emb_x_sto
 
         if sim_lm_model is None:
             sim_lm_model = _g_infor.get('sim_lm_model') if 'sim_lm_model' in _g_infor else \
-                SentenceTransformer("all-MiniLM-L6-v2") # Qwen/Qwen3-Embedding-0.6B
+                SentenceTransformer("Qwen/Qwen3-Embedding-8B") # Qwen/Qwen3-Embedding-0.6B
             _g_infor['sim_lm_model'] = sim_lm_model
 
         if emb_x_storages is None:
