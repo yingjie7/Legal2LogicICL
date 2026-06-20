@@ -10,9 +10,11 @@ The instructions will be updated soon!!
 
 ```bibtex
 @inproceedings{xue2026legal2logicicl,
-  title={Data Augmented Pipeline for Legal Information Extraction and Reasoning},
+  title={Legal2LogicICL: Improving Generalization in Transforming Legal Cases to Logical Formulas via Diverse Few-Shot Learning},
   author={Xue, Jieying and Nguyen, Phuong Minh and Nguyen, Ha Thanh and Zin, May Myo and Satoh, Ken},
   booktitle={Proceedings of the Twentieth International Conference on Artificial Intelligence and Law},
-  year={2026}
+  series = {ICAIL '26},
+  year={2026},
+  url={https://arxiv.org/abs/2604.11699}
 }
 ```
